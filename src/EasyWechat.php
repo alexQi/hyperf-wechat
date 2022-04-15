@@ -21,7 +21,7 @@ use Hyperf\Utils\ApplicationContext;
  * @method static \EasyWeChat\Work\Application  work(string $name = "default", array $config = [])
  * @method static \EasyWeChat\MiniProgram\Application  miniProgram(string $name = "default", array $config = [])
  * @method static \EasyWeChat\Payment\Application  payment(string $name = "default", array $config = [])
- * @method static \EasyWeChat\OpenPayment\Application  openPlatform(string $name = "default", array $config = [])
+ * @method static \EasyWeChat\OpenPlatform\Application  openPlatform(string $name = "default", array $config = [])
  * @method static \EasyWeChat\OpenWork\Application  openWork(string $name = "default", array $config = [])
  * @method static \EasyWeChat\MicroMerchant\Application  microMerchant(string $name = "default", array $config = [])
  */

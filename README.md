@@ -1,23 +1,26 @@
-# hyperf-wechat
+# hyperf-wechat (php8，easyWechat5.0)
 
-微信 SDK for Hyperf， 基于 overtrue/wechat
-
+微信 SDK for Hyperf， 基于 naixiaoxin/hyperf-wechat
 
 ## 安装
-~~~shell script
-composer require naixiaoxin/hyperf-wechat
-~~~
 
+~~~shell script
+composer require alex-qiu/hyperf-wechat
+~~~
 
 ## 配置
+
 1. 发布配置文件
+
 ~~~shell script
-php ./bin/hyperf.php vendor:publish naixiaoxin/hyperf-wechat
+php ./bin/hyperf.php vendor:publish alex-qiu/hyperf-wechat
 ~~~
+
 2. 修改应用根目录下的 `config/autoload/wechat.php` 中对应的参数即可。
 3. 每个模块基本都支持多账号，默认为 `default`。
 
 ## 使用
+
 下面以接收普通消息为例写一个例子：
 > 假设您的域名为 `nxx.cloud` 那么请登录微信公众平台 “开发者中心” 修改 “URL（服务器配置）” 为： `http://nxx.cloud/wechat`。
 
