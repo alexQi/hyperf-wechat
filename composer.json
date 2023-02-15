@@ -21,8 +21,8 @@
   "require": {
     "php": ">=8.0",
     "ext-swoole": "^4.4",
-    "hyperf/guzzle": "^2.0.0",
-    "hyperf/super-globals": "^2.0.0",
+    "hyperf/guzzle": "^2.0.0|^3.0.0",
+    "hyperf/super-globals": "^2.0.0|^3.0.0",
     "w7corp/easywechat": "^5.0.0"
   },
   "require-dev": {
