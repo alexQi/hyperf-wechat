@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=7.0|>=8.0",
-    "ext-swoole": "^4.4",
+    "ext-swoole": "^4.4|^5.0",
     "hyperf/guzzle": "^2.0.0|^3.0.0",
     "hyperf/super-globals": "^2.0.0|^3.0.0",
     "w7corp/easywechat": "^5.0.0"
